@@ -14,10 +14,10 @@ export default function Home() {
           priority
         />
         <ol>
-          <li>
+          <li className="bg-red-300">
             Get started by editing <code>app/page.js</code>.
           </li>
-          <li>Save and see your changes instantly.</li>
+          <li className="bg-slate-200">Save and see your changes instantly.</li>
         </ol>
 
         <div className={styles.ctas}>
