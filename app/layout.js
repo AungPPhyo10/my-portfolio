@@ -14,7 +14,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${poppins.variable} flex justify-center items-center min-h-screen`}>
+      <body className={`${poppins.variable} min-h-screen`}>
         {children}
       </body>
     </html>
