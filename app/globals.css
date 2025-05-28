@@ -4,7 +4,7 @@
 }
 
 @layer components {
-  .custom-heading {
-    @apply text-3xl text-red-500;
+  .heading {
+    @apply block text-center text-5xl font-bold;
   }
 }
