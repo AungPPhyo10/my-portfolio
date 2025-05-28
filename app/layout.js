@@ -1,4 +1,6 @@
 import {Poppins, Lato} from "next/font/google";
+import Navbar from './components/navbar';
+import Footer from './components/footer';
 import "./globals.css";
 
 const poppins = Poppins({
@@ -19,8 +21,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${poppins.variable} min-h-screen mx-10`}>
-        {children}
+      <body className={`${poppins.variable} min-h-screen flex flex-col`}>
+        <Navbar/>
+        <main className="flex-grow">{children}</main>
+        <Footer/>
       </body>
     </html>
   );

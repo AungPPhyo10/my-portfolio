@@ -1,5 +1,5 @@
 export default function About() {
     return (
-        <div>My Projects</div>
+        <h1 className="heading">My Projects</h1>
     )
 }
