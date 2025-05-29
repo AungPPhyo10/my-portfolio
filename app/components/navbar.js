@@ -31,7 +31,7 @@ export default function Navbar() {
         <div>
             <label className="swap swap-rotate me-2">
             {/* this hidden checkbox controls the state */}
-            <input type="checkbox" className="theme-controller" value="synthwave" />
+            <input type="checkbox" className="theme-controller" value="halloween" />
 
             {/* sun icon */}
             <svg
