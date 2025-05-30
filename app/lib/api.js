@@ -8,7 +8,7 @@ export default async function subscribeEmail({name, email}) {
     const body = JSON.stringify({name, email, isExcludedFromCampaigns: true})
     const headers = {
         'Content-type' : 'application/json',
-        'Authrorization' : `Basic ${Buffer.from(apiKey+":"+secretKey).toString('base64')}`
+        'Authorization' : `Basic ${Buffer.from(apiKey+":"+secretKey).toString('base64')}`
     }
     // encrypt the authorization key by using buffer method
 
