@@ -40,3 +40,24 @@ export const work_lists = [
         description: "Part-time Sales Promoter"
     }
 ]
+
+export const techs = [
+    {id :1 , name: "Javascript", logo:"/logos/javascript.svg"},
+    {id :2 , name: "Java", logo:"/logos/java.svg"},
+    {id :3 , name: "Python", logo:"/logos/python.svg"},
+    {id :4 , name: "HTML", logo:"/logos/html.svg"},
+    {id :5 , name: "CSS", logo:"/logos/css.svg"},
+    {id :6 , name: "Tailwind CSS", logo:"/logos/tailwindcss.svg"},
+    {id :7 , name: "Bootstrap", logo:"/logos/bootstrap.svg"},
+    {id :8 , name: "Node.js", logo:"/logos/nodejs.svg"},
+    {id :9 , name: "React.js", logo:"/logos/reactjs.svg"},
+    {id :10 , name: "Next.js", logo:"/logos/nextjs.svg"},
+    {id :11 , name: "Jakarta EE", logo:"/logos/jakartaee.svg"},
+    {id :12 , name: "SpringBoot", logo:"/logos/springboot.svg"},
+    {id :13 , name: "Flask", logo:"/logos/flask.svg"},
+    {id :14 , name: "Git", logo:"/logos/git.svg"},
+    {id :15 , name: "Mendix", logo:"/logos/mendix.svg"},
+    {id :16 , name: "Figma", logo:"/logos/figma.svg"},
+    {id :17 , name: "MySQL", logo:"/logos/mysql.svg"},
+    {id :18 , name: "Postgresql", logo:"/logos/postgresql.svg"}
+]

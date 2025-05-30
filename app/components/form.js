@@ -29,7 +29,8 @@ export default function Form() {
                 setMessage(msg);
             })
             .catch(error => {
-
+                alert('Error! Please try again later');
+                console.log(error);
             })
         })
     }
@@ -37,7 +38,7 @@ export default function Form() {
     return (
     <form action={submitForm} className="p-8 m-5 rounded-xl border border-primary shadow-xl backdrop-blur-md bg-base-200 max-w-md mx-auto flex flex-col gap-4">
         <div className="text-center">
-            <h1 className="text-3xl font-bold">Join my e-mail list</h1>
+            <h1 className="text-2xl font-bold">Join my e-mail list</h1>
             <p className="text-sm opacity-70 mt-1">
             Stay updated with my latest projects, insights, and development tips. No spam - just cool stuff.
             </p>
