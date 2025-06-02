@@ -7,7 +7,12 @@ export const awards_lists = [
     {
         id: 2,
         title: "Certificate in IOT - Singapore Polytechnic",
-        description: "Awarded for completing IOT related modules and project successfully"
+        description: "Awarded for completing IOT related modules and projects successfully"
+    },
+    {
+        id: 3,
+        title: "IELTS Certificate - Band 7.0",
+        description: "Awarded for scoring a band score of 7 out 9 in IELTS exam"
     }
 ]
 
@@ -59,7 +64,8 @@ export const techs = [
     {id :15 , name: "Mendix", logo:"/logos/mendix.svg"},
     {id :16 , name: "Figma", logo:"/logos/figma.svg"},
     {id :17 , name: "MySQL", logo:"/logos/mysql.svg"},
-    {id :18 , name: "Postgresql", logo:"/logos/postgresql.svg"}
+    {id :18 , name: "Postgresql", logo:"/logos/postgresql.svg"},
+    {id :19, name: "Docker", logo:"/logos/docker.svg"}
 ]
 
 export const projects = [
@@ -68,83 +74,80 @@ export const projects = [
         title: "Full-stack Web Application",
         techs: ["Node.js", "Express.js", "JWT Auth", "MySQL", "HTML", "CSS", "Bootstrap"],
         description: "A fantasy space RPG web application where users can build spaceships, do sustainable tasks and compete each other. The project involves creating routes, controllers, and models(MVC structure) to handle database queries integrating with user authentication with JWT token system and game logic.",
-        github: "",
-        link: ""
+        github: "Github repo link : ",
+        link: "View on live website : "
     },
     {
         id: 2, 
         title: "Movie app with React.js",
         techs: ["Node.js", "React.js"],
         description: "A web app where you can freely search up movies, actors and set your own favourite movies. Built with React.js v19+. Project data retrieved from themoviedb.org APIs",
-        github: "",
-        link: ""
+        github: "Github repo link : ",
+        link: "View on live website : "
     },
     {
         id: 3, 
         title: "Next.js demo application",
         techs: ["Node.js", "React.js", "Next.js"],
         description: "A demo next.js web application that utilizes both Server-Side Rendering(SSR) and Client-Side Rendering(CSR) and other advanced Next.js techniques. The project is a demo tutorial from Udemy course - Next.js and React 18 Bootcamp(by David Joseph Katz)",
-        github: "",
-        link: ""
+        github: "Github repo link : ",
+        link: "View on live website : "
     },
     {
         id: 4, 
-        title: "Library web app with CI/CD pipeline",
+        title: "E-Library system + CI/CD Pipeline",
         techs: ["Node.js", "Express.js", "JWT Auth", "Postgresql", "Prisma", "HTML", "CSS", "Bootstrap", "Playwright Testing"],
         description: "A library e-book rental system project built by my team for the CICD module requirements. The project involves MVC structure, Prisma as ORM(Object Relational Model) and simulates a library book rental system with user authentication, book renting, returning, admin management, etc",
-        github: "",
-        link: ""
+        github: "Github repo link : ",
+        link: "View on live website : "
     },
     {
         id: 5, 
         title: "To-do-list web app with Flask",
         techs: ["Flask", "HTML", "CSS", "Bootstrap"],
         description: "A simple web app built with python Flask, Jinjja templates for managing tasks and notes",
-        github: "",
-        link: ""
+        github: "Github repo link : ",
     },
     {
         id: 6, 
-        title: "Portfolio web app",
+        title: "Portfolio website",
         techs: ["Node.js", "Next.js", "React.js", "Daisy UI", "Motion-Primitives"],
         description: "My own portfolio website which is being used to host this current webpage",
-        github: "",
-        link: ""
+        github: "Github repo link : ",
     },
     {
         id: 7, 
         title: "Gaming Community application prototype",
         techs: ["Figma"],
-        description: "",
-        link: ""
+        description: "A prototype application for the gaming community built with Figma. The project included conducting research on user needs, solving their needs, documentation, wireframe creation, and prototype development.",
+        link: "View the prototype on Figma : "
     },
     {
         id: 8, 
         title: "Javascript Movie Review Program",
         techs: ["Node.js", "Javascript"],
-        description: "",
-        github: "",
-        link: ""
+        description: "A simple command-line driven program where users can play around with existing movies, view details, add new movies, add ratings, etc",
+        github: "Github repo link : ",
     },
     {
         id: 9, 
         title: "SG University Graduates Employment Survey Program - 1",
         techs: ["Node.js", "Javascript"],
-        description: "",
-        github: "",
+        description: "A command-line driven project that users can interact with to find out data about SG University Graduates employment survey details",
+        github: "Github repo link : ",
     },
     {
         id: 10, 
         title: "SG University Graduates Employment Survey Program - 2",
         techs: ["Node.js", "Javascript", "HTML", "CSS"],
-        description: "",
-        github: "",
+        description: "A web application that users can interact with to find out about SG University Graduates employment rates, median salaries by majors, etc",
+        github: "Github repo link : ",
     },
     {
         id: 11,
         title: "Low-code Gaming Community application with Mendix",
         techs: ["Mendix", "CSS"],
-        description: "",
-        link: ""
+        description: "A prototype version of a gaming community application built with Mendix Studio Pro v9 and node-red. The app included basic page navigation, create/delete operation microflows, in-game chatbot(called via OpenAI endpoint), etc",
+        link: "View demo video : "
     }
 ]

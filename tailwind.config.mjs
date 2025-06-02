@@ -11,7 +11,7 @@ export default {
   },
   plugins: [daisyui],
   daisyui: {
-    themes: ['light', 'dark', 'halloween', 'nord']
+    themes: ['light', 'dark', 'halloween', 'aqua']
   }
   // daisyui: {
   //   themes: ['light', 'dark', 'halloween'],

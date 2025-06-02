@@ -24,27 +24,42 @@ export default function About() {
                 <div className="w-full max-w-4xl px-4">
                     <h2 className="small-heading">🏆 Awards & Certificates</h2>
                     <div className="grid gap-4 md:grid-cols-2">
-                    {awards_lists.map(item => (
-                        <InfoCard key={item.id} title={item.title} description={item.description} />
-                    ))}
+                    {awards_lists.map((item, index) => {
+                        const isLastOdd = awards_lists.length % 2 === 1 && index === awards_lists.length - 1;
+                        return (
+                        <div key={item.id} className={isLastOdd ? "md:col-span-2 flex justify-center" : ""}>
+                            <InfoCard title={item.title} description={item.description} />
+                        </div>
+                        );
+                    })}
                     </div>
                 </div>
 
                 <div className="w-full max-w-4xl px-4">
                     <h2 className="small-heading">🎓 Education</h2>
                     <div className="grid gap-4 md:grid-cols-2">
-                    {education_lists.map(item => (
-                        <InfoCard key={item.id} title={item.title} description={item.description} range={item.range} />
-                    ))}
+                    {education_lists.map((item, index) => {
+                        const isLastOdd = awards_lists.length % 2 === 1 && index === awards_lists.length - 1;
+                        return (
+                        <div key={item.id} className={isLastOdd ? "md:col-span-2 flex justify-center" : ""}>
+                            <InfoCard title={item.title} description={item.description} range={item.range} />
+                        </div>
+                        );
+                    })}
                     </div>
                 </div>
 
                 <div className="w-full max-w-4xl px-4">
                     <h2 className="small-heading">💼 Work Experience</h2>
                     <div className="grid gap-4 md:grid-cols-2">
-                    {work_lists.map(item => (
-                        <InfoCard key={item.id} title={item.title} description={item.description} range={item.range} />
-                    ))}
+                    {work_lists.map((item, index) => {
+                        const isLastOdd = awards_lists.length % 2 === 1 && index === awards_lists.length - 1;
+                        return (
+                        <div key={item.id} className={isLastOdd ? "md:col-span-2 flex justify-center" : ""}>
+                            <InfoCard title={item.title} description={item.description} range={item.range} />
+                        </div>
+                        );
+                    })}
                     </div>
                 </div>
             </section>
