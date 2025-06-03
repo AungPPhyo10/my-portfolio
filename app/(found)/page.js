@@ -4,7 +4,7 @@ import Form from '../components/form';
 export default function Home() {
   return (
     <div>
-      <h1 className="heading">Home</h1>
+      <h1 className="heading animate__animated animate__fadeInDown">Home</h1>
       <Intro/>
       <br/>
 

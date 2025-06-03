@@ -5,7 +5,7 @@ import Image from 'next/image';
 export default function Project() {
     return (
         <div>
-            <h1 className="heading mb-[35px]">My Projects</h1>
+            <h1 className="heading mb-[35px] animate__animated animate__fadeInDown">My Projects</h1>
             
             <div className="block text-center mb-4">
                 <div className="flex flex-row justify-center gap-3">

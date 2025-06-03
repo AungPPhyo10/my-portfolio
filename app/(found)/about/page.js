@@ -6,7 +6,7 @@ import Badge from '../../components/badge';
 export default function About() {
     return (
         <div>
-            <h1 className="heading">About Me</h1>
+            <h1 className="heading animate__animated animate__fadeInDown">About Me</h1>
 
             <Intro/>
 

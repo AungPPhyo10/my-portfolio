@@ -10,7 +10,7 @@ export default function Intro() {
                 </div>
             </div>
             <div>
-            <p className="py-6 flex justify-center bg-base-200 rounded-md p-5">
+            <p className="py-6 flex justify-center bg-base-200 rounded-md p-5 animate__animated animate__fadeInDown">
                 My name is Aung Pyae Phyo, a software developer, enthusiastic about web development, interested in football, 
                 supports Barcelona, love learning new frameworks and technologies, yep, thats all for now
                 📧 aungphyoe9190@gmail.com
