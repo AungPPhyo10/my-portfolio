@@ -1,10 +1,6 @@
-'use client'
-
-import Link from 'next/link';
-import {useState, useEffect} from 'react';
 import {projects} from '../../lib/data';
 import ProjectCard from '../../components/projectCard';
-
+import Image from 'next/image';
 
 export default function Project() {
     return (
@@ -13,7 +9,7 @@ export default function Project() {
             
             <div className="block text-center mb-4">
                 <div className="flex flex-row justify-center gap-3">
-                    <img src="/logos/git.svg" alt="Github icon" className="w-6 h-6" />
+                    <Image src="/logos/git.svg" alt="Github icon" width={25} height={25}/>
                     <a href="https://github.com/AungPPhyo10" target="_blank">Browse my Github Repository</a>
                 </div>
                 

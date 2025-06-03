@@ -5,11 +5,13 @@ import "./globals.css";
 
 const poppins = Poppins({
   variable: "--font-poppins",
+  subsets:['latin'], 
   weight: '300'
 })
 
 const lato = Lato({
   variable: "--font-lato",
+  subsets:['latin'], 
   weight: '700'
 })
 

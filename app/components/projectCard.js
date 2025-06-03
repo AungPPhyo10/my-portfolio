@@ -9,7 +9,7 @@ export default function ProjectCard({ id, title, techs, picture }) {
         <img src={picture} alt={title} className="max-h-full object-contain" />
       </figure>
 
-      <Link href={`/project/${id}`} className="card-body group cursor-pointer flex flex-row items-center justify-between hover:opacity-40">
+      <Link href={`/projects/${id}`} className="card-body group cursor-pointer flex flex-row items-center justify-between hover:opacity-40">
         <div>
           <h2 className="card-title text-base mb-2">{title}</h2>
           <div className="flex flex-wrap gap-2">

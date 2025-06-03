@@ -10,11 +10,11 @@ export default function Intro() {
                 </div>
             </div>
             <div>
-            <p className="py-6 flex justify-content:center bg-base-200 rounded-md p-5">
+            <p className="py-6 flex justify-center bg-base-200 rounded-md p-5">
                 My name is Aung Pyae Phyo, a software developer, enthusiastic about web development, interested in football, 
                 supports Barcelona, love learning new frameworks and technologies, yep, thats all for now
-                {/* <svg aria-label="Email icon" width="30" height="30" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g strokeLinejoin="round" strokeLinecap="round" strokeWidth="2" fill="currentColor" stroke="black"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></g></svg>aung.p.phyo123@gmail.com  
-                <svg arai-label="Location icon" width="30" height="30" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" fill="currentColor"/></svg>Singapore */}
+                📧 aungphyoe9190@gmail.com
+                🗺️ Singapore
             </p>
             </div>
         </div>
