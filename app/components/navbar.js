@@ -6,7 +6,7 @@ export default function Navbar() {
 
     return (
         <div className="navbar justify-between bg-base-300 shadow-sm ">
-            <ul className="menu gap-1 menu-horizontal md:text-xl text-sm ps-2">
+            <ul className="menu gap-0.5 menu-horizontal md:text-lg text-sm ps-2">
                 <li>
                     <Link href="/">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
