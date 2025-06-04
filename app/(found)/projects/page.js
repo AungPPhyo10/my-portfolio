@@ -20,17 +20,17 @@ export default function Project() {
       setProjectDisplay(filteredProjects);
     }, 500)         // put delay to avoid over-updating while typing
 
-    return () => clearTimeout(timer) // Clean up timeout
+    return () => clearTimeout(timer)  // Clean up timeout
   }, [deferredQuery])
 
   return (
     <div>
-      <h1 className="heading mb-[35px] animate__animated animate__fadeInUp">My Projects</h1>
+      <h1 className="heading mb-4 animate__animated animate__fadeInUp">My Projects</h1>
 
       <div className="block text-center mb-4">
         <div className="flex flex-row justify-center gap-3">
           <Image src="/logos/git.svg" alt="Github icon" width={25} height={25} />
-          <a href="https://github.com/AungPPhyo10" target="_blank">Browse my Github Repository</a>
+          <a href="https://github.com/AungPPhyo10" target="_blank" className="link link-primary hover:scale-110 transition">Browse my Github Repository</a>
         </div>
 
         <label className="input input-md mt-5">

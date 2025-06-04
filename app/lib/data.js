@@ -77,12 +77,12 @@ export const projects = [
         description: "A fantasy space RPG web application where users can build spaceships, do sustainable tasks and compete each other. The project involves creating routes, controllers, and models(MVC structure) to handle database queries integrating with user authentication with JWT token system and game logic.",
         github: (
             <div>
-                <a href="https://hello.com" target="_blank">Go to Github repo</a>
+                <a href="https://github.com/ST0503-BED/bed-ca2-AungPPhyo10" target="_blank">Go to Github repo</a>
             </div>
         ),
         link: (
             <div>
-                <a href="https://hello.com" target="_blank">View on live server</a>
+                <a href="https://aungpphyo0.onrender.com" target="_blank">View on live server</a>
             </div>
         )
     },
@@ -94,12 +94,7 @@ export const projects = [
         description: "A web app where you can freely search up movies, actors and set your own favourite movies. Built with React.js v19+. Project data retrieved from themoviedb.org APIs",
         github: (
             <div>
-                <a href="https://hello.com" target="_blank">Go to Github repo</a>
-            </div>
-        ),
-        link: (
-            <div>
-                <a href="https://hello.com" target="_blank">View on live server</a>
+                <a href="https://github.com/AungPPhyo10/react-movie-app" target="_blank">Go to Github repo</a>
             </div>
         )
     },
@@ -111,12 +106,12 @@ export const projects = [
         description: "A demo next.js web application that utilizes both Server-Side Rendering(SSR) and Client-Side Rendering(CSR) and other advanced Next.js techniques. The project is a demo tutorial from Udemy course - Next.js and React 18 Bootcamp(by David Joseph Katz)",
         github: (
             <div>
-                <a href="https://hello.com" target="_blank">Go to Github repo</a>
+                <a href="https://github.com/AungPPhyo10/next-react-app-demo" target="_blank">Go to Github repo</a>
             </div>
         ),
         link: (
             <div>
-               <a href="https://hello.com" target="_blank">View on live server</a>
+               <a href="https://next-app-demo-aungpp.vercel.app/" target="_blank">View on live server</a>
             </div>
         )
     },
@@ -125,15 +120,15 @@ export const projects = [
         title: "E-Library system + CI/CD Pipeline",
         picture: "/logos/nodejs.svg",
         techs: ["Node.js", "Prisma", "Playwright Testing", "Express.js", "JWT Auth", "Postgresql", "HTML", "CSS", "Bootstrap"],
-        description: "A library e-book rental system project built by my team for the CICD module requirements. The project involves MVC structure, Prisma as ORM(Object Relational Model) and simulates a library book rental system with user authentication, book renting, returning, admin management, etc. The project also included aspects of doing Playwright testings and deploying on Azure webservices",
+        description: "A library e-book rental system project built by my team for the CICD module requirements. The project involves MVC structure, Prisma as ORM(Object Relational Model) and simulates a library book rental system with user authentication, book renting, returning, admin management, etc. The project also included aspects of doing Playwright tests and deploying on Azure web platform",
         github: (
             <div>
-               <a href="https://hello.com" target="_blank">Go to Github repo</a>
+               <a href="https://github.com/soc-cicd/ay2425s2-project-class-2b04-vaseline" target="_blank">Go to Github repo</a>
             </div>
         ),
         link: (
             <div>
-                <a href="https://hello.com" target="_blank">View on live server</a>
+                <a href="https://cicd-app-e5e8d7erb5b6hkfd.southeastasia-01.azurewebsites.net/general/html/login.html" target="_blank">View on live server</a>
             </div>
         )
     },
@@ -145,7 +140,7 @@ export const projects = [
         description: "A simple web app built with python Flask, Jinjja templates for managing tasks and notes",
         github: (
             <div>
-                <a href="https://hello.com" target="_blank">Go to Github repo</a>
+                <a href="https://github.com/AungPPhyo10/python-flask-web-app" target="_blank">Go to Github repo</a>
             </div>
         ),
     },
@@ -157,7 +152,7 @@ export const projects = [
         description: "My own portfolio website which is being used to host this current webpage",
         github: (
             <div>
-                <a href="https://hello.com" target="_blank">Go to Github repo</a>
+                <a href="https://github.com/AungPPhyo10/my-portfolio" target="_blank">Go to Github repo</a>
             </div>
         )
     },
@@ -166,10 +161,10 @@ export const projects = [
         title: "Gaming Community application prototype",
         picture: "/logos/figma.svg",
         techs: ["Figma"],
-        description: "A prototype application for the gaming community built with Figma. The project included conducting research on user needs, solving their needs, documentation, wireframe creation, and prototype development.",
+        description: "A prototype application for gaming communities built with my team using Figma. I mainly developed the prototypes of the homepage. The project included conducting research on user needs, solving their needs, documentation, wireframe creation, and prototype development.",
         link: (
             <div>
-                <a href="https://hello.com" target="_blank">View prototype on Figma</a>
+                <a href="https://www.figma.com/proto/oE8uaNYEZZspiSoV6PJT47/DEUI-Wireframes---Prototyping--Group--2-?node-id=2766-4826&starting-point-node-id=2766%3A4611&t=xPT6hePpaCjSSZCa-1" target="_blank">View prototype on Figma</a>
             </div>
         )
     },
@@ -181,7 +176,7 @@ export const projects = [
         description: "A simple command-line driven program where users can play around with existing movies, view details, add new movies, add ratings, etc",
         github: (
             <div>
-                <a href="https://hello.com" target="_blank">Go to Github repo</a>
+                <a href="https://github.com/AungPPhyo10/FOP_movie_review_program" target="_blank">Go to Github repo</a>
             </div>
         )
     },
@@ -193,7 +188,7 @@ export const projects = [
         description: "A command-line driven project that users can interact with to find out data about SG University Graduates employment survey details",
         github: (
             <div>
-                <a href="https://hello.com" target="_blank">Go to Github repo</a>
+                <a href="https://github.com/AungPPhyo10/SG-university-project-cli" target="_blank">Go to Github repo</a>
             </div>
         )
     },
@@ -205,7 +200,7 @@ export const projects = [
         description: "A web application that users can interact with to find out about SG University Graduates employment rates, median salaries by majors, etc",
         github: (
             <div>
-                <a href="https://hello.com" target="_blank">Go to Github repo</a>
+                <a href="https://github.com/AungPPhyo10/SG-University-data-retreival-project" target="_blank">Go to Github repo</a>
             </div>
         )
     },
@@ -217,7 +212,7 @@ export const projects = [
         description: "A prototype version of a gaming community application built with Mendix Studio Pro v9 and node-red. The app included basic page navigation, create/delete operation microflows, in-game chatbot(called via OpenAI endpoint), etc",
         link: (
             <div>
-                <a href="https://hello.com" target="_blank">View demo video</a>
+                <a href="https://drive.google.com/file/d/19Ysd0-b_KTDfEEVRpLlzD_b4jn8MxIAI/view?usp=sharing" target="_blank">View demo video</a>
             </div>
         )
     }
