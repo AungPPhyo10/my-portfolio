@@ -2,7 +2,7 @@ export const awards_lists = [
     {
         id: 1,
         title: "Director's Hounour Roll - Singapore Polytechnic",
-        description: "Listed on School of Computing Director's Honour Roll in AY 2023-2024 and 2024-2025 with a cGPA of 3.82"
+        description: "Listed on School of Computing Director's Honour Roll in AY 2023-2024 with a cGPA of 3.82"
     },
     {
         id: 2,

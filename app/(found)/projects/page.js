@@ -5,7 +5,7 @@ import Image from 'next/image'
 import { projects } from '../../lib/data'
 import ProjectCard from '../../components/projectCard'
 
-const MemoizedProjectCard = memo(ProjectCard)
+const MemoizedProjectCard = memo(ProjectCard);    // skip rendering the component unless its properties have changed  
 
 export default function Project() {
   const [query, setQuery] = useState("")
