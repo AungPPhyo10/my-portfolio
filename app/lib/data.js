@@ -65,7 +65,8 @@ export const techs = [
     {id :16 , name: "Figma", logo:"/logos/figma.svg"},
     {id :17 , name: "MySQL", logo:"/logos/mysql.svg"},
     {id :18 , name: "Postgresql", logo:"/logos/postgresql.svg"},
-    {id :19, name: "Docker", logo:"/logos/docker.svg"}
+    {id :19, name: "Docker", logo:"/logos/docker.svg"},
+    {id :20, name: "Azure", logo:"/logos/azure.svg"}
 ]
 
 export const projects = [
@@ -96,7 +97,13 @@ export const projects = [
             <div>
                 <a href="https://github.com/AungPPhyo10/react-movie-app" target="_blank">Go to Github repo</a>
             </div>
+        ),
+        link: (
+            <div>
+                <a href="https://react-movie-app-demo.vercel.app/" target="_blank">View on live server</a>
+            </div>
         )
+        
     },
     {
         id: 3, 

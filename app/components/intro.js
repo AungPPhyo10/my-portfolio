@@ -17,8 +17,8 @@ export default function Intro() {
           </h2>
           <p className="mb-4">
             A full-stack developer, passionate about modern web development with <strong>Node.js</strong>.
-            Interested in implementing CI/CD operations and cloud computing with <strong>Microsoft Azure</strong>. 
-            Continuous learner in the field of <strong>AI and Retrieval Augmented Generation(RAG)</strong> models.     
+            Interested in implementing <strong>CI/CD operations</strong> and cloud computing with <strong>Microsoft Azure</strong>. 
+            Continuous learner in the field of <strong>AI</strong> and <strong>Retrieval Augmented Generation(RAG)</strong> models.     
           </p>
           <div className="opacity-80">
             <p>🌍 <span className="font-medium">Singapore</span></p>
