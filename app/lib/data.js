@@ -2,7 +2,7 @@ export const awards_lists = [
     {
         id: 1,
         title: "Director's Hounour Roll - Singapore Polytechnic",
-        description: "Listed on School of Computing Director's Honour Roll in AY 2023-2024 with a cGPA of 3.82"
+        description: "Listed on School of Computing Director's Honour Roll in AY 2023-2024 with a cGPA of 3.88"
     },
     {
         id: 2,
@@ -12,11 +12,22 @@ export const awards_lists = [
     {
         id: 3,
         title: "IELTS Certificate - Band 7.0",
-        description: "Awarded for scoring a band score of 7 out 9 in IELTS exam"
+        description: "Awarded for scoring a band score of 7 out 9 in International English Language Testing System exam"
+    },
+    {
+        id: 4,
+        title: "Microsoft Azure Fundamentals (AZ-900)",
+        description: "Successfully completed the official Microsoft Azure Fundamentals certification exam"
     }
 ]
 
 export const education_lists = [
+    {
+        id: 3,
+        title: "Singapore Management University (SMU)",
+        range: "2026 August",
+        description: "Bachelor of Science (Software Engineering)"
+    },
     {
         id: 1,
         title: "Singapore Polytechnic",
@@ -30,6 +41,7 @@ export const education_lists = [
         description: "IGCSE (Edexcel) O-level"
     }
 ]
+
 
 export const work_lists = [
     {
@@ -47,31 +59,31 @@ export const work_lists = [
 ]
 
 export const techs = [
-    {id :1 , name: "Javascript", logo:"/logos/javascript.svg"},
-    {id :2 , name: "Java", logo:"/logos/java.svg"},
-    {id :3 , name: "Python", logo:"/logos/python.svg"},
-    {id :4 , name: "HTML", logo:"/logos/html.svg"},
-    {id :5 , name: "CSS", logo:"/logos/css.svg"},
-    {id :6 , name: "Tailwind CSS", logo:"/logos/tailwindcss.svg"},
-    {id :7 , name: "Bootstrap", logo:"/logos/bootstrap.svg"},
-    {id :8 , name: "Node.js", logo:"/logos/nodejs.svg"},
-    {id :9 , name: "React.js", logo:"/logos/reactjs.svg"},
-    {id :10 , name: "Next.js", logo:"/logos/nextjs.svg"},
-    {id :11 , name: "Jakarta EE", logo:"/logos/jakartaee.svg"},
-    {id :12 , name: "SpringBoot", logo:"/logos/springboot.svg"},
-    {id :13 , name: "Flask", logo:"/logos/flask.svg"},
-    {id :14 , name: "Git", logo:"/logos/git.svg"},
-    {id :15 , name: "Mendix", logo:"/logos/mendix.svg"},
-    {id :16 , name: "Figma", logo:"/logos/figma.svg"},
-    {id :17 , name: "MySQL", logo:"/logos/mysql.svg"},
-    {id :18 , name: "Postgresql", logo:"/logos/postgresql.svg"},
-    {id :19, name: "Docker", logo:"/logos/docker.svg"},
-    {id :20, name: "Azure", logo:"/logos/azure.svg"}
+    { id: 1, name: "Javascript", logo: "/logos/javascript.svg" },
+    { id: 2, name: "Java", logo: "/logos/java.svg" },
+    { id: 3, name: "Python", logo: "/logos/python.svg" },
+    { id: 4, name: "HTML", logo: "/logos/html.svg" },
+    { id: 5, name: "CSS", logo: "/logos/css.svg" },
+    { id: 6, name: "Tailwind CSS", logo: "/logos/tailwindcss.svg" },
+    { id: 7, name: "Bootstrap", logo: "/logos/bootstrap.svg" },
+    { id: 8, name: "Node.js", logo: "/logos/nodejs.svg" },
+    { id: 9, name: "React.js", logo: "/logos/reactjs.svg" },
+    { id: 10, name: "Next.js", logo: "/logos/nextjs.svg" },
+    { id: 11, name: "Jakarta EE", logo: "/logos/jakartaee.svg" },
+    { id: 12, name: "SpringBoot", logo: "/logos/springboot.svg" },
+    { id: 13, name: "Flask", logo: "/logos/flask.svg" },
+    { id: 14, name: "Git", logo: "/logos/git.svg" },
+    { id: 15, name: "Mendix", logo: "/logos/mendix.svg" },
+    { id: 16, name: "Figma", logo: "/logos/figma.svg" },
+    { id: 17, name: "MySQL", logo: "/logos/mysql.svg" },
+    { id: 18, name: "Postgresql", logo: "/logos/postgresql.svg" },
+    { id: 19, name: "Docker", logo: "/logos/docker.svg" },
+    { id: 20, name: "Azure", logo: "/logos/azure.svg" }
 ]
 
 export const projects = [
     {
-        id: 1, 
+        id: 1,
         title: "Full-stack Web Application",
         picture: "/logos/nodejs.svg",
         techs: ["Node.js", "Express.js", "JWT Auth", "MySQL", "HTML", "CSS", "Bootstrap"],
@@ -88,7 +100,7 @@ export const projects = [
         )
     },
     {
-        id: 2, 
+        id: 2,
         title: "Movie app with React.js",
         picture: "/logos/reactjs.svg",
         techs: ["Node.js", "React.js"],
@@ -103,10 +115,10 @@ export const projects = [
                 <a href="https://react-movie-app-demo.vercel.app/" target="_blank">View on live server</a>
             </div>
         )
-        
+
     },
     {
-        id: 3, 
+        id: 3,
         title: "Next.js demo application",
         picture: "/logos/nextjs.svg",
         techs: ["Node.js", "React.js", "Next.js"],
@@ -118,19 +130,19 @@ export const projects = [
         ),
         link: (
             <div>
-               <a href="https://next-app-demo-aungpp.vercel.app/" target="_blank">View on live server</a>
+                <a href="https://next-app-demo-aungpp.vercel.app/" target="_blank">View on live server</a>
             </div>
         )
     },
     {
-        id: 4, 
+        id: 4,
         title: "E-Library system + CI/CD Pipeline",
         picture: "/logos/nodejs.svg",
         techs: ["Node.js", "Prisma", "Playwright Testing", "Express.js", "JWT Auth", "Postgresql", "HTML", "CSS", "Bootstrap"],
         description: "A library e-book rental system project built by my team for the CICD module requirements. The project involves MVC structure, Prisma as ORM(Object Relational Model) and simulates a library book rental system with user authentication, book renting, returning, admin management, etc. The project also included aspects of doing Playwright tests and deploying on Azure web platform",
         github: (
             <div>
-               <a href="https://github.com/soc-cicd/ay2425s2-project-class-2b04-vaseline" target="_blank">Go to Github repo</a>
+                <a href="https://github.com/soc-cicd/ay2425s2-project-class-2b04-vaseline" target="_blank">Go to Github repo</a>
             </div>
         ),
         link: (
@@ -140,7 +152,7 @@ export const projects = [
         )
     },
     {
-        id: 5, 
+        id: 5,
         title: "To-do-list web app with Flask",
         picture: "/logos/flask.svg",
         techs: ["Flask", "HTML", "CSS", "Bootstrap"],
@@ -152,7 +164,7 @@ export const projects = [
         ),
     },
     {
-        id: 6, 
+        id: 6,
         title: "Portfolio website",
         picture: "/logos/nextjs.svg",
         techs: ["Node.js", "Next.js", "React.js", "Daisy UI", "Motion-Primitives"],
@@ -164,7 +176,7 @@ export const projects = [
         )
     },
     {
-        id: 7, 
+        id: 7,
         title: "Gaming Community application prototype",
         picture: "/logos/figma.svg",
         techs: ["Figma"],
@@ -176,7 +188,7 @@ export const projects = [
         )
     },
     {
-        id: 8, 
+        id: 8,
         title: "Javascript Movie Review Program",
         picture: "/logos/nodejs.svg",
         techs: ["Node.js", "Javascript"],
@@ -188,7 +200,7 @@ export const projects = [
         )
     },
     {
-        id: 9, 
+        id: 9,
         title: "SG University Graduates Employment Survey Program - 1",
         picture: "/logos/nodejs.svg",
         techs: ["Node.js", "Javascript"],
@@ -200,7 +212,7 @@ export const projects = [
         )
     },
     {
-        id: 10, 
+        id: 10,
         title: "SG University Graduates Employment Survey Program - 2",
         picture: "/logos/nodejs.svg",
         techs: ["Node.js", "Javascript", "HTML", "CSS"],

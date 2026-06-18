@@ -1,6 +1,8 @@
 import {projects} from '../../../lib/data';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
+import Image from 'next/image';
+
 
 export async function generateMetadata({params}) {
     const {id} = params;
@@ -37,7 +39,7 @@ export default function Page({ params }) {
         <div className="hero">
             <div className="hero-content flex-col md:flex-row-reverse gap-5">
 
-            <img src={project.picture} alt={project.title} className="max-w-sm w-full rounded-lg shadow-md"/>
+            <Image src={project.picture} alt={project.title} width={384} height={384} className="max-w-sm w-full rounded-lg shadow-md h-auto object-contain" />
 
             <div>
                 <h1 className="text-3xl font-bold mb-3">{project.title}</h1>
